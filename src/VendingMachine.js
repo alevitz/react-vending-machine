@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import MilkShake from "./MilkShake";
 import Beer from "./Beer";
@@ -10,6 +10,7 @@ function VendingMachine(){
 return (
   <div>
     <BrowserRouter>
+    <Switch>
       <Route exact path="/milkshake">
         <MilkShake />
       </Route>
@@ -22,6 +23,7 @@ return (
       <Route>
         <Home exact path="/"/>
       </Route>
+      </Switch>
     </BrowserRouter>
   </div>
 )
