@@ -5,7 +5,7 @@ function MilkShake(){
   return (
     <div>
       MilkShake!!!!!
-      <p>Go to <Link to="/home">home</Link> page</p>
+      <p>Go to <Link to="/">home</Link> page</p>
     </div>
   )
   }

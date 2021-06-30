@@ -6,7 +6,7 @@ function Soda(){
   return (
     <div>
       Soda!!!!!
-      <p>Go to <Link to="/home">home</Link> page</p>
+      <p>Go to <Link to="/">home</Link> page</p>
     </div>
   )
   }

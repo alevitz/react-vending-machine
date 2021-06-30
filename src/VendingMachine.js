@@ -5,11 +5,13 @@ import MilkShake from "./MilkShake";
 import Beer from "./Beer";
 import Soda from "./Soda";
 import Home from "./Home";
+import NavBar from "./NavBar";
 
 function VendingMachine(){
 return (
   <div>
     <BrowserRouter>
+    <NavBar />
     <Switch>
       <Route exact path="/milkshake">
         <MilkShake />
